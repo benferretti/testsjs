@@ -48,8 +48,8 @@ entrepreneurs.forEach(entrepreneur => {
 
 
 //Trie les entrepreneurs par ordre alphabétique du nom de famille.
-let index = 0; 
-let arrayOfEntrepreneurs = [];
+index = 0; 
+arrayOfEntrepreneurs = [];
 entrepreneurs.forEach(entrepreneur => {
   arrayOfEntrepreneurs[index] = entrepreneur.last;
   index += 1;
