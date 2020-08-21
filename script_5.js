@@ -44,7 +44,7 @@ console.log(mostRentedBook[0]);
 
 //Quel est le livre le moins emprunté ?
 
-let mostRentedBook = ['','',books[0].rented];
+mostRentedBook = ['','',books[0].rented];
 books.forEach(book => {
   if (book.rented <= mostRentedBook[2]) {
     mostRentedBook[0] = book.title;
